@@ -534,12 +534,12 @@ nav {
     }
    .about-me-content {
         order: -1; /* Moves text above the image */
-        margin-bottom: 10px; /* Adds space between text and image */
-        transform: translateY(-10px); /* Move text higher */
+        margin-bottom: 25px; /* Adds space between text and image */
+        transform: translateY(-40px); /* Move text higher */
     }
     .about-me-content h2 {
     position: relative; /* Pastikan top berfungsi */
-    top: -10px; /* Tukar nilai jika perlu */
+    top: -25px; /* Tukar nilai jika perlu */
     text-align: center;
     margin: 0 auto;
     width: fit-content;
