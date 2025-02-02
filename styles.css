@@ -539,7 +539,7 @@ nav {
     }
     .about-me-content h2 {
     position: relative; /* Pastikan top berfungsi */
-    top: -10px; /* Tukar nilai jika perlu */
+    top: -17px; /* Tukar nilai jika perlu */
     text-align: center;
     margin: 0 auto;
     width: fit-content;
