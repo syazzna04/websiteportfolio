@@ -743,15 +743,16 @@ footer {
     text-align: center;
     padding: 30px 0;
 }
-
 /* Responsive Design */
 @media (max-width: 768px) {
-    /* Sembunyikan nav-left dan nav-right */
+    /* --- Mobile Styling (≤768px) --- */
+    
+    /* Hide nav-left and nav-right (desktop navigation) */
     .nav-left, .nav-right {
         display: none;
     }
 
-    /* Gaya untuk ikon hamburger */
+    /* Style for the hamburger icon */
     .hamburger {
         display: block;
         font-size: 24px;
@@ -764,7 +765,7 @@ footer {
         border: none;
     }
 
-    /* Gaya untuk menu hamburger (disembunyikan secara default) */
+    /* Mobile menu (hidden by default) */
     .mobile-menu {
         display: none;
         flex-direction: column;
@@ -786,10 +787,30 @@ footer {
         font-weight: bold;
     }
 
-    /* Apabila menu dibuka */
+    /* Show the mobile menu when the 'show' class is added */
     .mobile-menu.show {
         display: flex;
     }
+}
+
+/* Desktop navigation styles (≥769px) */
+@media (min-width: 769px) {
+    /* Hide the hamburger menu on desktop */
+    .hamburger {
+        display: none;
+    }
+
+    /* Hide the mobile menu on desktop */
+    .mobile-menu {
+        display: none;
+    }
+
+    /* Show desktop navigation links */
+    .nav-left, .nav-right {
+        display: flex;
+    }
+}
+
     .logo-container {
         margin: 0 20px;
     }
