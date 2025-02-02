@@ -46,3 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Change slide every 3 seconds
     setInterval(nextSlide, 3000);
 });
+
+function toggleMenu() {
+    document.querySelector(".mobile-menu").classList.toggle("show");  // Toggle menu visibility
+}
