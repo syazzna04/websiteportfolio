@@ -534,7 +534,7 @@ nav {
     }
     .about-me-content h2 {
     position: relative; /* Pastikan top berfungsi */
-    top: -30px; /* Tukar nilai jika perlu */
+    top: -50px; /* Tukar nilai jika perlu */
     text-align: center;
     margin: 0 auto;
     width: fit-content;
