@@ -47,6 +47,10 @@ document.addEventListener('DOMContentLoaded', function() {
     setInterval(nextSlide, 3000);
 });
 
-function toggleMenu() {
-    document.querySelector(".mobile-menu").classList.toggle("show");  // Toggle menu visibility
-}
+const hamburger = document.querySelector('.hamburger');
+const mobileMenu = document.querySelector('.mobile-menu');
+
+hamburger.addEventListener('click', () => {
+    mobileMenu.classList.toggle('show');
+});
+
