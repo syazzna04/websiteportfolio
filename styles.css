@@ -600,6 +600,18 @@ nav {
 }
 
 /* styles.css */
+.astro {
+  color: #333; /* Change to the color you want (e.g., Tomato) */
+  text-decoration: none; /* Removes the underline */
+  font-weight: bold; /* Makes the text bold */
+}
+
+.astro:hover {
+  color: #db7093; /* Change to the hover color (e.g., OrangeRed) */
+  text-decoration: underline; /* Adds the underline on hover */
+}
+
+/* styles.css */
 .animate {
   color: #333; /* Change to the color you want (e.g., Tomato) */
   text-decoration: none; /* Removes the underline */
@@ -845,3 +857,4 @@ footer {
         gap: 15px;
     }
 }
+
